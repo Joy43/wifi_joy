@@ -7,15 +7,20 @@
 
 ```bash
 $ apt update && apt upgrade
-$ pkg install -y root-repo
-$ pkg install -y git tsu python wpa-supplicant pixiewps iw
+$ apt install -y root-repo
+$ apt install -y git tsu python wpa-supplicant pixiewps iw
 $ git clone https://github.com/Joy43/wifi_joy.git
 $ cd ssjoy
 $ chmod +x joy.py
 $ sudo python joy.py --help
 ```
+* Run joy.py with python3
+    * On kali linux
+        ```bash
+        python3 joy.py -i wlan0 -K
+        ```
 
-#### Example : `sudo python joy.py -i wlan0 -K`
+#### Example : `python3 joy.py -i wlan0 -K`
 
 #### Note: 
 **First turn off your Wifi.**
