@@ -18,12 +18,22 @@ import csv
 from typing import Dict
 
 print('''
-\033[1;92m Recoded By ss joy
-hello-everyone
-join us with 
-One line Command:\nsudo python ssjoy/joy.py -i wlan0 -K\n
-For Help Type:\npython ssjoy/joy.py --help\033[0m
+\033[1;92m
+╔═══════════════════════════════════════════════╗
+║               Recoded By SS Joy               ║
+╚═══════════════════════════════════════════════╝
+
+Hello, everyone! Join us with:
+
+\033[1;93mOne-line Command:\033[1;92m
+    sudo python ssjoy/joy.py -i wlan0 -K
+
+\033[1;93mFor Help Type:\033[1;92m
+    python ssjoy/joy.py --help
+
+\033[0m
 ''')
+
 class NetworkAddress:
     def __init__(self, mac):
         if isinstance(mac, int):
