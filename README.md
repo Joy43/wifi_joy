@@ -9,7 +9,7 @@
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
-$ git clone https://github.com/Joy43/wifi_pentesting.git
+$ git clone https://github.com/Joy43/wifi_joy.git
 $ cd ssjoy
 $ chmod +x joy.py
 $ sudo python joy.py --help
